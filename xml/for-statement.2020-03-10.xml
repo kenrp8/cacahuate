@@ -11,10 +11,29 @@
   <process>
     <action id="start_node">
       <node-info>
-        <name>Unnamed action</name>
-        <description>Undescribed action</description>
+        <name>Unnamed node</name>
+        <description>Undescribed node</description>
       </node-info>
       <auth-filter backend="anyone"></auth-filter>
     </action>
+
+    <for
+      id="for_statement"
+      iter="first_iter"
+    >
+      <condition></condition>
+      <step></step>
+      <block>
+        <action id="action">
+          <node-info>
+            <name>Unnamed action</name>
+            <description>Undescribed action</description>
+          </node-info>
+          <auth-filter backend="backref">
+            <param name="identifier" type="ref">user#start_node</param>
+          </auth-filter>
+        </action>
+      </block>
+    </for>
   </process>
 </process-spec>
