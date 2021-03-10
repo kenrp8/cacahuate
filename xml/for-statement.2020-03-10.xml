@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://tracsa.github.io/vi-xml/proceso_transform.xsl" ?>
+<process-spec>
+  <process-info>
+    <author>kramirez</author>
+    <date>2020-03-10</date>
+    <name>For statement test</name>
+    <public>false</public>
+    <description>For statement test</description>
+  </process-info>
+</process-spec>
