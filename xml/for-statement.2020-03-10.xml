@@ -8,4 +8,13 @@
     <public>false</public>
     <description>For statement test</description>
   </process-info>
+  <process>
+    <action id="start_node">
+      <node-info>
+        <name>Unnamed action</name>
+        <description>Undescribed action</description>
+      </node-info>
+      <auth-filter backend="anyone"></auth-filter>
+    </action>
+  </process>
 </process-spec>
