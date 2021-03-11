@@ -195,6 +195,20 @@
     </optional>
   </define>
 
+  <define name="for">
+    <element name="for">
+      <attribute name="id"><text/></attribute>
+      <attribute name="iter"><text/></attribute>
+      <element name="condition">
+        <text />
+      </element>
+      <element name="step">
+        <text />
+      </element>
+      <ref name="block" />
+    </element>
+  </define>
+
   <define name="call">
     <element name="call">
       <attribute name="id"><text/></attribute>
